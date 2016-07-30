@@ -5,12 +5,3 @@ import attr from 'ember-data/attr';
 export default Model.extend({
   email: attr('string')
 });
-import Ember from 'ember';
-
-export default Ember.Route.extend({
-
-  model() {
-    return this.store.findAll('invitation');
-  }
-
-});
