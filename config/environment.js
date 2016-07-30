@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: { 
+      apiKey: "AIzaSyD5FciDTWJwn9gu975U3FjZ6ezSA6QZDNA",
+    authDomain: "libraryapp-75a77.firebaseapp.com",
+    databaseURL: "https://libraryapp-75a77.firebaseio.com",
+      storageBucket: '',
+    },
     modulePrefix: 'library-app',
     environment: environment,
     baseURL: '/',
@@ -16,7 +22,7 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
   };
 
   if (environment === 'development') {
